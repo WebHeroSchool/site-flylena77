@@ -2,7 +2,7 @@
 <html>
 <head>
      <meta charset="utf-8">
-     <title>Заголовок веб-страницы</title>
+     <title>{"public":true}</title>
 </head>
 <body>
      <header>
@@ -23,7 +23,7 @@
        </main>
        <div>
             <img>
-       </div>   
+       </div>
      </section>
 </body>
 </html>
