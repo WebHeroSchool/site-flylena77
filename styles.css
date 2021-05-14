@@ -4,8 +4,39 @@
   font-weight: bold;
 }
 a {
-  color: grey;
+   color: grey;
 }
 p {
   color: grey;
+}
+.body{
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.logo,.menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+.logo {
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
