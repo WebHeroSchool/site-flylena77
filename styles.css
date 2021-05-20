@@ -1,11 +1,10 @@
 
-.body{
+body{
   margin: 0;
 }
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 .header {
   display: flex;
@@ -13,7 +12,6 @@
 }
 .logo,.menu {
   display: inline-block;
-  border: dashed 1px red;
 }
 .logo {
   margin-right: 63%;
@@ -25,7 +23,6 @@
 }
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 .menu__item:last-child {
   padding-right: 0;
