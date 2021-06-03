@@ -1,11 +1,33 @@
-.title {
-  font-family: Roboto;
-  color: blue;
-  font-weight: bold;
+
+body{
+  margin: 40px;
+  padding: 40px 0 40px 0;
 }
-a {
-  color: grey;
+.wrapper {
+  margin: auto;
+  width: 80%;
 }
-p {
-  color: grey;
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo .menu {
+  display: inline-block;
+}
+.logo {
+  margin-right: 63%;
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
