@@ -28,7 +28,7 @@ body{
 }
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 10px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -47,7 +47,7 @@ body{
 .menu__item:hover {
   opacity: 0.5;
 }
-.menu__item:hover:after, .menu__item_active{
+.menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
   width: 100%;
 }
