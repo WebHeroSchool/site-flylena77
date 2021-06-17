@@ -6,7 +6,7 @@ body{
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
+  /*border: dashed 1px red;*/
 }
 .header {
   padding: 40px 0;
