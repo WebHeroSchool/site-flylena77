@@ -61,8 +61,6 @@ body{
   background: top right no-repeat url(img/mainlmg.svg);
 }
 .main__title {
-  display: flex;
-  align-items: center;
   margin: 0 0 40px 0;
   font: bold 50px/65px 'PT Serif', serif, arial, helvetica, sans-setif;
   color: #000;
